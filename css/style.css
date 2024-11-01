@@ -1,12 +1,27 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Open Sans';
+    background-color: #FCFCFC;
+}
 .container{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 .tomato{
-    color: tomato;
+    color: #FD6E0A;
 }
 
 /* header-section */
+
+.header-section{
+    background-color: #FFF8F3;
+    background-image:url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    margin-bottom: 100px;
+}
 .hero{
     display: flex;
     align-items: center;
@@ -26,8 +41,180 @@
     font-size: 18px;
 }
 .main-menu .hire-btn{
-    background-color: tomato;
+    background-color: #FD6E0A;
     padding: 20px 35px;
     border-radius:5px ;
     color: white;
+}
+
+/* hero-content */
+.hero-content{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.user-image img{
+    width: 676px;
+}
+.content-area{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.hero-content .content-area h2{
+    font-size: 45px;
+}
+.hero-content .content-area h1{
+    font-size: 85px;
+}
+.hero-content .content-area p{
+    font-size: 18px;
+    color: #757575;
+}
+.hero-content .button a {
+    background-color: #FD6E0A;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    padding: 20px 40px 20px 0;
+}
+/* about me */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+.contact-info{
+    display: flex;
+    column-gap: 90px;
+}
+.contact-info .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info .info h3{
+    font-size: 20px;
+    font-weight: normal;
+    color:#757575 ;
+}
+.contact-info .info p{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #474747;
+}
+.about-bg{
+    background-color:#FFF8F3 ;
+    padding: 100px;
+    border-radius: 10px;
+    width: 60%;
+}
+.about-me h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.about-me > p{
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575;
+    text-align: center;
+    padding: 0 100px;
+}
+/* what i do */
+.icon{
+    margin-bottom: 100px;
+}
+.icon .what-do{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom:50px ;
+}
+.what-do h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.icon-item{
+    display: flex;
+    /* flex-direction: row; */
+    /* padding: 90px 150px; */
+    column-gap: 40px;
+    
+}
+.icon-item.item h1{
+    font-size: 20px;
+    
+}
+.icon-item.item p{
+    font-size: 16px;
+    color: #757575;
+}
+.item{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* summary */
+.education > h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.experience > h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.my-info h1{
+    font-size: 25px;
+    width: 700;
+    margin: 20px 0;
+}
+.my-info h2{
+    font-size: 20px;
+    width: 600;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.my-info p{
+    font-size: 16px;
+    width: 400;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.information{ 
+    display: flex;
+    column-gap: 40px;
+    margin: 35px 70px;
+}
+.summary h1{
+display: flex;
+justify-content: center;
+font-weight: 700;
+font-size: 35px;
+margin-bottom: 50px;
+}
+.btn{
+   text-align: center;
+   margin:80px
+
+}
+.last-info .btn a{
+text-decoration: none;
+color: #FCFCFC;
+background-color: #FD6E0A;
+padding: 15px 30px;
+border-radius: 5px;
+font-size: 20px;
+font-weight: 600;
 }
